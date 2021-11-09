@@ -17,3 +17,22 @@ Useful commands:
 - `git commit` - commit changes
 - `git push` - push changes
 
+# Makefile
+
+A typical Makefile has the following structure:
+- target (`regula1`, `regula2`, `regula3`) - identify the commands. If not
+specified, the first target in file will be executed.
+- dependences, are optionals. They can be files or other targets. When a target
+is a dependency for antoher targer, the dependency-targer will be run first
+- command - defines what that target does
+
+```
+regula1: <dependente1>
+	command1
+
+regula2: <dependente2>
+	command2
+
+regula3: <dependente3>
+	comman3
+```
