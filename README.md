@@ -16,6 +16,9 @@ Useful commands:
 - `git add` - add files/changes
 - `git commit` - commit changes
 - `git push` - push changes
+- `git status` - check the files that were modified or not tracked
+- `git log` - view commits history
+- `git diff` - show changes
 
 # Makefile
 
